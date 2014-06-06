@@ -19,6 +19,10 @@
 		18E323F5193F455800FD9E89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E323DD193F455800FD9E89 /* UIKit.framework */; };
 		18E323FD193F455800FD9E89 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18E323FB193F455800FD9E89 /* InfoPlist.strings */; };
 		18E323FF193F455800FD9E89 /* _3_navagattionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E323FE193F455800FD9E89 /* _3_navagattionTests.m */; };
+		18E3241A193F671D00FD9E89 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E32418193F671D00FD9E89 /* RootViewController.m */; };
+		18E3241B193F671D00FD9E89 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E32419193F671D00FD9E89 /* RootViewController.xib */; };
+		18E3241F193F673500FD9E89 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E3241D193F673500FD9E89 /* SecondViewController.m */; };
+		18E32420193F673500FD9E89 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E3241E193F673500FD9E89 /* SecondViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,12 @@
 		18E323FA193F455800FD9E89 /* 03-navagattionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "03-navagattionTests-Info.plist"; sourceTree = "<group>"; };
 		18E323FC193F455800FD9E89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		18E323FE193F455800FD9E89 /* _3_navagattionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _3_navagattionTests.m; sourceTree = "<group>"; };
+		18E32417193F671D00FD9E89 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		18E32418193F671D00FD9E89 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		18E32419193F671D00FD9E89 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		18E3241C193F673500FD9E89 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		18E3241D193F673500FD9E89 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		18E3241E193F673500FD9E89 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +119,12 @@
 			children = (
 				18E323E8193F455800FD9E89 /* fcAppDelegate.h */,
 				18E323E9193F455800FD9E89 /* fcAppDelegate.m */,
+				18E32417193F671D00FD9E89 /* RootViewController.h */,
+				18E32418193F671D00FD9E89 /* RootViewController.m */,
+				18E32419193F671D00FD9E89 /* RootViewController.xib */,
+				18E3241C193F673500FD9E89 /* SecondViewController.h */,
+				18E3241D193F673500FD9E89 /* SecondViewController.m */,
+				18E3241E193F673500FD9E89 /* SecondViewController.xib */,
 				18E323EB193F455800FD9E89 /* Images.xcassets */,
 				18E323E0193F455800FD9E89 /* Supporting Files */,
 			);
@@ -220,8 +236,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18E32420193F673500FD9E89 /* SecondViewController.xib in Resources */,
 				18E323E4193F455800FD9E89 /* InfoPlist.strings in Resources */,
 				18E323EC193F455800FD9E89 /* Images.xcassets in Resources */,
+				18E3241B193F671D00FD9E89 /* RootViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,8 +258,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18E3241F193F673500FD9E89 /* SecondViewController.m in Sources */,
 				18E323E6193F455800FD9E89 /* main.m in Sources */,
 				18E323EA193F455800FD9E89 /* fcAppDelegate.m in Sources */,
+				18E3241A193F671D00FD9E89 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

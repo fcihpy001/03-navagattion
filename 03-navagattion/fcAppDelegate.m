@@ -13,8 +13,16 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    RootViewController *rootview = [[ RootViewController alloc]init];
+    rootview.title = @"root view";
+    
+    
+    
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "RootViewController.h"
 @interface fcAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+
+@property (strong,nonatomic) UINavigationController *navgation;
+
+
+
 
 @end
